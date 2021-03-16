@@ -1,0 +1,18 @@
+#mainframe {
+    width: 900px;
+    margin: auto;
+}
+
+#maintitle {
+    display: inline-block;
+}
+
+#maintitle img {
+    background-color: rgb(177, 199, 223);
+    color: rgb(102,  101, 132)
+}
+
+td {
+    width: 150px;
+    height: 35px;
+}
