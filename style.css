@@ -1,6 +1,8 @@
 #mainframe {
     width: 900px;
     margin: auto;
+    border-left: 10px rgb(70, 70, 83);
+    border-right: 10px rgb(70, 70, 83);
 }
 
 #maintitle {
@@ -16,6 +18,21 @@
     border: 0px;
     width: 650px;
     background-color: rgb(92, 107, 123);
+}
+
+section {
+    width: 600px;
+    background-color: white;
+}
+
+article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section b {
+    font-size: 200%;
+    margin-bottom: 20px;
 }
 
 table {
