@@ -12,26 +12,29 @@
     color: rgb(102,  101, 132)
 }
 
-table#1sttable {
+#firsttable table {
     border: 0px;
     width: 650px;
-    background-color: white;
+    background-color: rgb(92, 107, 123);
 }
 
 table {
     margin: auto;
 }
 
-table#2ndtable {
+#secondtable {
     width: 600px;
+    text-align: center;
+    background-color: white;
+    height: 35px;
 }
 
-table#2ndtable td {
-    
-    padding: 0;
-    background-color: rgb(92, 107, 123);
-    height: 30px;
-    text-align: center;
+#secondtable tr:nth-child(2) {
+    background-color: rgb(205, 219, 235);
+}
+
+#secondtable tr:nth-child(3) {
+    background-color: rgb(205, 219, 235);
 }
 
 body {
