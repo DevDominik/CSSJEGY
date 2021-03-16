@@ -12,7 +12,28 @@
     color: rgb(102,  101, 132)
 }
 
-td {
-    width: 150px;
-    height: 35px;
+table#1sttable {
+    border: 0px;
+    width: 650px;
+    background-color: white;
+}
+
+table {
+    margin: auto;
+}
+
+table#2ndtable {
+    width: 600px;
+}
+
+table#2ndtable td {
+    
+    padding: 0;
+    background-color: rgb(92, 107, 123);
+    height: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(224, 224, 224); 
 }
